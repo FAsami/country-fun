@@ -5,7 +5,8 @@ function InputName({ handleInput, handleSubmit, inputValue }) {
     <div className="card card-body mt-4">
       <h3 className="text-center card-title">Enter your name </h3>
       <p className="text-center">
-        (Get the Country name starts with your name's letter)
+        (Get the Country name starts with your name's letter) <br />
+        Credit : <a href="http://facebook.com/MFASami">Foysal Ahammed</a>
       </p>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
